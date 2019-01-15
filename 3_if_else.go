@@ -16,5 +16,9 @@ func main() {
 		fmt.Println("!% 4")
 	}
 
-
+	if num := -9; num < 0 {
+		fmt.Println("negative int")
+	} else if num < 10 {
+		fmt.Println("it has 1 int")
+	}
 }
