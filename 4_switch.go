@@ -31,4 +31,9 @@ func main() {
 	default:
 		fmt.Println("It's after noon")
 	}
+
+	fmt.Println(time.Now())
+
+	var n int
+	fmt.Scan(&n)
 }
