@@ -1,4 +1,4 @@
-package ReadySteadyGo
+package main
 
 import (
 	"database/sql"
